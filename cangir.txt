@@ -1,0 +1,20 @@
+git clone https://github.com/CANGIRu/tp_git
+cd index.html
+git branch css
+git branch html
+git branch mobile
+git push -u origin css
+git push -u origin html
+git push -u origin mobile
+nano index.html
+git add index.html
+git commit -m "html"
+git config user.name "CANGIRU"
+git config user.email "ugur.cangir77@gmail.com"
+git push origin html
+git checkout html
+git pull origin html
+git checkout master
+git merge html
+git push
+(faire sa pour css et mobile)
