@@ -1,0 +1,15 @@
+git clone https://github.com/CANGIRu/tp_git
+cd tp_git
+git fecth origin
+git checkout mobile
+touch mobile.css
+nano mobile.css
+git add mobile.css
+git commit -m "css pour mobile"
+git push origin mobile
+git checkout master
+touch nano.txt
+nano chenel.txt
+git add chenel.txt
+git commit -m "commandes"
+git push origin master
