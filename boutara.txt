@@ -1,0 +1,11 @@
+git clone https://github.com/CANGIRu/tp_git.git
+cd tp_git
+git fetch origin
+git checkout css
+touch style.css
+nano style.css
+git add style.css
+git commit -m "styleCSS"
+git config user.email "rayanboutara@gmail.com"
+git config user.name "bakabew93"
+git push origin css
